@@ -81,7 +81,7 @@ section, article {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center;
+  justify-content: space-around;
   margin-bottom: 20px;
 }
 
@@ -104,20 +104,20 @@ footer {
   background-color: white;
   color: black;
   padding: 30px 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: right;
   gap: 20px;
 }
 
 .footer-contato {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: right;
   gap: 10px;
 }
 
@@ -138,6 +138,7 @@ footer {
 .footer-direitos {
   font-size: 0.85rem;
   color: black;
+  text-align: center;
 }
 
 
