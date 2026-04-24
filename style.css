@@ -6,6 +6,7 @@ body {
   background-attachment: fixed;
   color: rgb(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
   margin: 0;
   padding: 0 10%;
   text-align: left; 
@@ -98,49 +99,57 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
+  max-width 100%;
 }
 
 footer {
-  background-color: white;
-  color: black;
-  padding: 30px 20px;
-  text-align: left;
+  background-color: #111;
+  color: white;
+  padding: 40px 10%;
+  border-top: 2px solid #222;
 }
 
 .footer-container {
   display: flex;
-  flex-direction: column;
-  align-items: right;
-  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .footer-contato {
-  display: flex;
-  flex-direction: column;
-  align-items: right;
-  gap: 10px;
+  max-width: 300px;
+}
+
+.footer-contato h3 {
+  margin-bottom: 15px;
 }
 
 .footer-contato p {
   margin: 5px 0;
-  color: black;
+  color: #ccc;
 }
 
 .footer-contato a {
-  text-decoration: none;
   color: #00bfff;
+  text-decoration: none;
 }
 
 .footer-contato a:hover {
   text-decoration: underline;
 }
 
-.footer-direitos {
-  font-size: 0.85rem;
-  color: black;
-  text-align: center;
+.footer-contato img {
+  width: 60px;
+  margin: 5px 0;
+  border: none;
 }
 
+.footer-direitos {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  color: #aaa;
+}
 
 .navbar {
   display: flex;
@@ -192,9 +201,9 @@ footer {
 }
 
 .icons img {
-  width: 50px;
-  height: 50px;
-  padding: 5px;
+  width: 70px;
+  height: 70px;
+  padding: 8px;
   border: 2px solid black;
   border-radius: 8px;
   background-color: white;
